@@ -22,3 +22,15 @@ print(full_name[-1])
 
 #Slicing
 print(full_name[0:6])
+
+message = " I am Learning Python "
+
+print (message.strip())
+print(message.replace("Python", "Programming"))
+print("Python" in message)
+
+print(message.startswith("I"))
+print(message.endswith("Python"))
+print(message.count("n"))
+print(message.find("Python"))
+
